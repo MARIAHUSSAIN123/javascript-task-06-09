@@ -63,5 +63,6 @@ console.log(sub2 , "         " +totalmarks , "     "     , "      ",obtainedMark
 
 console.log(sub3 , "         " ,totalmarks , "      "    , "      ",obtainedMarks3   ,"      "      , obtainedMarks3/totalmarks*100 + "%");
 let sum= totalmarks*3;
-let totalObtained = obtainedMarks1+obtainedMarks2+obtainedMarks3/sum*100;
-console.log("      "+sum + "   "+totalObtained+"    "+totalObtained+"%");
+let totalObtained= obtainedMarks1+obtainedMarks2+obtainedMarks3;
+let totalperc = totalObtained/sum*100;
+console.log("      "+sum + "   "+totalObtained+"    "+totalperc+"%");
